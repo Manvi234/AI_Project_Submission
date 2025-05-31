@@ -66,7 +66,7 @@ List of flagged employees includes:
 Objective: Predict sentiment trend over time.
 
 Features:
-- Timestamp (derived from month)
+- message_count, message_length, word_count, and subject_length
 - Target: Monthly average sentiment score
 
 The model captures sentiment drift and organizational mood trends with a clear trendline plot.
